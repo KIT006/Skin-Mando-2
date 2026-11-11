@@ -1,0 +1,50 @@
+/* Skin Mando Xbox — KIT006 (azul / negro / blanco) */
+.controller.xbox.custom {
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60%;
+  background-color: #05070d;
+  border: 3px solid #1a4bff;
+  border-radius: 40px;
+  box-shadow: 0 0 30px rgba(47, 123, 255, 0.55),
+              inset 0 0 40px rgba(26, 75, 255, 0.25);
+}
+
+/* Botones: base negra con borde azul */
+.controller.xbox.custom .button {
+  background-color: #05070d;
+  border: 2px solid #1a4bff;
+  color: #ffffff;
+}
+
+/* Botones presionados: azul encendido con glow */
+.controller.xbox.custom .button.pressed {
+  background-color: #1a4bff;
+  border-color: #ffffff;
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(47, 123, 255, 0.95);
+}
+
+/* Sticks */
+.controller.xbox.custom .stick {
+  background-color: #05070d;
+  border: 2px solid #1a4bff;
+}
+
+/* Gatillos */
+.controller.xbox.custom .trigger {
+  background-color: #05070d;
+  border: 2px solid #1a4bff;
+}
+
+.controller.xbox.custom .trigger.pressed {
+  background-color: #1a4bff;
+  box-shadow: 0 0 18px rgba(47, 123, 255, 0.9);
+}
+
+/* Etiquetas */
+.controller.xbox.custom .label {
+  color: #ffffff;
+}
+
